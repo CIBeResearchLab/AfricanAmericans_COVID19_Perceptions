@@ -1,7 +1,7 @@
 from facepplib import FacePP
 import json
 
-facepp = FacePP(api_key='4xN_wWO8d0WCMgrG6ymuFPzsl-jbAU2h', api_secret='4QOHv1jYYH3huxAa7cJypGkiiQ5XvL7c')
+facepp = FacePP(api_key='', api_secret='')
 #image = facepp.image.get(image_url='http://pbs.twimg.com/profile_images/1322616772495839232/L9Lkn4DO_400x400.jpg',return_attributes=['ethnicity','gender'])
 
 
