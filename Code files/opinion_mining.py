@@ -4,7 +4,7 @@ import json
 
 path='/Users/Meghna/Desktop/Filtered_BlackA_Tweets/*.json.gz'
 
-key = "ec69bba93aeb464ca1e9677956f78450"
+key = ""
 endpoint = "https://textanalyticsresouce.cognitiveservices.azure.com/"
 
 files=glob.glob(path)
