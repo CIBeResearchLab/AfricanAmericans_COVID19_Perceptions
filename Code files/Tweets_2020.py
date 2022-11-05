@@ -23,7 +23,7 @@ import json
 import datetime
 import itertools
 import gzip
-os.environ['BEARER_TOKEN'] = 'AAAAAAAAAAAAAAAAAAAAAE3%2BPAEAAAAAoYXziEmBrYE6%2FdcmEjsLJ8R2CNE%3DOwRrF16iOPbsKoqKq0mX8BRJc3OGreYArfbDYIon7uJC7h7luB'
+os.environ['BEARER_TOKEN'] = 'ADD BEARER TOKEN HERE'
 
 
 # In[ ]:
@@ -145,7 +145,7 @@ from twarc.client2 import Twarc2
 from twarc.expansions import flatten
 
 # Your bearer token here
-t = Twarc2(bearer_token='AAAAAAAAAAAAAAAAAAAAAE3%2BPAEAAAAAoYXziEmBrYE6%2FdcmEjsLJ8R2CNE%3DOwRrF16iOPbsKoqKq0mX8BRJc3OGreYArfbDYIon7uJC7h7luB')
+t = Twarc2(bearer_token='ADD BEARER TOKEN HERE')
 
 # Start and end times must be in UTC
 start_time = datetime.datetime(2020, 1, 1, 0, 0, 0, 0, datetime.timezone.utc)
