@@ -20,14 +20,7 @@ os.environ['BEARER_TOKEN'] = 'ADD BEARER TOKEN HERE'
 
 bearer_token = os.environ.get("BEARER_TOKEN")
 
-
-# In[ ]:
-
-
 search_url = "https://api.twitter.com/2/tweets/search/all"
-
-
-# In[ ]:
 
 
 # Optional params: start_time,end_time,since_id,until_id,max_results,next_token,
