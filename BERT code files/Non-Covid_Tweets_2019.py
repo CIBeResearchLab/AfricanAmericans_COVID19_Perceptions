@@ -50,8 +50,7 @@ def connect_to_endpoint(url, headers, params):
 def main():
     headers = create_headers(bearer_token)
     count = 0
-    #with gzip.open('/Users/Meghna/Desktop/noncovid_tweets_nov.gz', 'wt', encoding='UTF-8') as zipfile:
-    with gzip.open('/Users/Meghna/Desktop/noncovid_tweets_oct.gz', 'w') as output:
+    with gzip.open(path, 'w') as output:
         while count <25000:
             time.sleep(1)
             json_response = connect_to_endpoint(search_url, headers, query_params)
